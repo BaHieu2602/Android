@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/header_tlu"
+        android:contentDescription="Header 65 năm Đại học Thủy Lợi" />
+
+    <ImageView
+    android:id="@+id/imgLogo"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:src="@drawable/logo_tlu"
+    android:contentDescription="Logo Đại học Thủy Lợi" />
+
+    <Button
+        android:id="@+id/btnUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh bạ đơn vị"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh bạ CBNV"
+        android:padding="20dp"/>
+</LinearLayout>

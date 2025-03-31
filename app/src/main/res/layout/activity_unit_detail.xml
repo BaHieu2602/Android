@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên phòng"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📞 0123456789"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📍 Tòa nhà A1"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
